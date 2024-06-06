@@ -17,7 +17,7 @@ platform :ios do
     changelog = changelog_from_git_commits(merge_commit_filtering: "exclude_merges")
 
     github_release = set_github_release(
-      repository_name: "daltoniam/starscream",
+      repository_name: "NSFuntik/starscream",
       api_token: ENV["GITHUB_TOKEN"],
       name: version,
       tag_name: version,
